@@ -24,9 +24,9 @@ public class OtpController {
     }
 
 
-    @PostMapping("/verify")
-    public ResponseEntity<String> verifyOtp(@RequestParam String phoneNumber, @RequestParam String otp) {
-        return otpService.verifyOtp(phoneNumber, otp);
-    }
+    // @PostMapping("/verify")
+    // public ResponseEntity<String> verifyOtp(@RequestParam String phoneNumber, @RequestParam String otp) {
+    //     return otpService.verifyOtp(phoneNumber, otp);
+    // }
 
     }

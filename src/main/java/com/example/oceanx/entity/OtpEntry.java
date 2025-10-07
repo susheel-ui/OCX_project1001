@@ -19,8 +19,10 @@ public class OtpEntry {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @Column(name = "phonenumber")
+    private String name;
+    private String lastName;
+    private String email;
+    @Column(name = "phoneNumber")
     private String phoneNumber;
     private String otp;
     private LocalDateTime createdAt;
